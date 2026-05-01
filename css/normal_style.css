@@ -1,0 +1,44 @@
+body {
+  background-color: #121212;
+}
+
+nav {
+  background-color: #212121;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+
+  font-family: "Roboto Mono";
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+nav ul li a:hover {
+  color: #909090;
+}
+
+h1 {
+  color: white;
+
+  font-family: "Bitcount Grid Single", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 46px;
+  text-align: center;
+}

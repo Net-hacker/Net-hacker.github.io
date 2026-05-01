@@ -1,0 +1,90 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info h2 {
+  color: white;
+  font-family: "Bitcount Grid Single", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 50px;
+}
+
+.info img {
+  border-radius: 15px;
+  max-width: 15%;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: 10px;
+}
+
+.info p {
+  color: white;
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  text-align: center;
+}
+
+.info a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto Mono";
+  font-style: oblique;
+  transition: color 0.2s;
+}
+
+.info a:hover {
+  color: #909090;
+}
+
+.trennline {
+  width: 100%;
+  border: 0;
+  border-top: 2px solid white;
+  margin: 50px 0;
+  margin-bottom: 0px;
+}
+.projects {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto Mono";
+  font-style: oblique;
+  font-size: 24px;
+  transition: color 0.2s;
+}
+
+.projects a:hover {
+  color: #909090;
+}
+
+.github {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.github a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto Mono";
+  font-style: oblique;
+  font-size: 24px;
+  transition: color 0.2s;
+}
+
+.github a:hover {
+  color: #909090;
+}
